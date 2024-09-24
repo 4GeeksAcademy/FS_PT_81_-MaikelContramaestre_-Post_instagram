@@ -1,0 +1,93 @@
+
+body {
+    font-family: "Playwrite PL", cursive;
+    background-color: #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 600px;
+    margin: 20px 0;
+}
+
+.card_content {
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.card_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.card_head_left {
+    display: flex;
+    align-items: center;
+}
+
+.card_head_text {
+    margin-left: 10px;
+}
+
+.card_head_title {
+    margin: 0;
+    font-size: 16px;
+
+}
+
+.card_head_sub {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.card_head_right {
+    cursor: pointer;
+}
+
+.card_body img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.card_icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.my_icon {
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.my_icon:hover {
+    color: #3247ff;
+}
+
+.bookmark {
+    margin-left: auto;
+}
+
+.card_footer {
+    font-family: Arial, sans-serif;
+    padding: 15px;
+}
+
+.card_footer p {
+    margin: 5px 0;
+}
+
+.point {
+    cursor: pointer;
+}
